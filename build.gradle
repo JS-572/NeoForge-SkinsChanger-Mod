@@ -27,7 +27,9 @@ sourceSets.main.resources {
 }
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
+    maven {
+        url = 'https://maven.fabricmc.net/'
+    }
 }
 
 base {
@@ -51,7 +53,7 @@ neoForge {
             client()
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
-            programArguments.addAll '--username', 'DannyFanamTax'
+            programArguments.addAll '--username', 'Sarah25K'
         }
 
         server {
@@ -112,6 +114,9 @@ configurations {
 }
 
 dependencies {
+    compileOnly 'net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7'
+    annotationProcessor 'net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7'
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

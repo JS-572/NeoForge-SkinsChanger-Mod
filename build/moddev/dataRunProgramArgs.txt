@@ -1,0 +1,17 @@
+# Main Class
+net.neoforged.fml.startup.DataClient
+
+# NeoForge Run-Type Program Arguments
+--assetIndex
+34
+--assetsDir
+C:\\Users\\thuya\\.gradle\\caches\\neoformruntime\\assets
+
+# User Supplied Program Arguments
+--mod
+offline_skins
+--all
+--output
+C:\\Users\\thuya\\Downloads\\NeoForge-SkinsChanger-Mod\\src\\generated\\resources
+--existing
+C:\\Users\\thuya\\Downloads\\NeoForge-SkinsChanger-Mod\\src\\main\\resources

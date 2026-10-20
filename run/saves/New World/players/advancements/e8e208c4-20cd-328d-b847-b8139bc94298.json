@@ -7,7 +7,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:birch_forest": "2026-10-18 08:32:58 -0700"
+      "minecraft:dark_forest": "2026-10-20 06:50:42 -0700",
+      "minecraft:meadow": "2026-10-20 06:50:06 -0700",
+      "minecraft:birch_forest": "2026-10-18 08:32:58 -0700",
+      "minecraft:pale_garden": "2026-10-20 06:50:38 -0700"
     },
     "done": false
   },

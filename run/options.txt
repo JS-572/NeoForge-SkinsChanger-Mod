@@ -17,7 +17,7 @@ preferredGraphicsBackend:"default"
 graphicsPreset:"fancy"
 prioritizeChunkUpdates:1
 fullscreen:false
-exclusiveFullscreen:false
+exclusiveFullscreen:true
 macFullscreenMenuVisibility:false
 gamma:0.5
 guiScale:0
